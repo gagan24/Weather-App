@@ -1,0 +1,21 @@
+<%- include('./partials/header'); -%>
+
+<div class="home">
+    <form action="/" method="POST">
+        <div class="form-group">
+            <label for="cityInput">City Name</label>
+            <input class="shadow p-3 mb-5 bg-white rounded form-control" id="cityInput" type="text" name="cityName" value="Delhi">
+
+            <select class="custom-select " name="unitsRequested">
+                <option selected>Select Units (Default Kelvin)</option>
+                <option value="metric">Celcius</option>
+                <option value="imperial">Fahrenheit</option>
+                <option value="">Kelvin</option>
+            </select>
+
+            <button class="btn btn-lg btn-primary" type="submit">Go</button>
+        </div>
+    </form>
+</div>
+
+<%- include('./partials/footer') -%>

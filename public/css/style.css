@@ -1,0 +1,29 @@
+body{
+    color: floralwhite;
+    background-color: darkslateblue;
+}
+
+.display-2{
+    padding: 2rem;
+}
+
+.home{
+    padding: 4rem;
+}
+
+.jumbotron{
+    border-radius: 2rem;
+    color: cornsilk;
+    background-color: blueviolet;
+    box-shadow: 2rem 2rem 2rem rgba(255, 255, 255, 0.060);
+}
+
+.info {
+    padding-top: 4rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    color: cornsilk;
+    background-color: blueviolet;
+}
